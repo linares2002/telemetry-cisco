@@ -19,5 +19,6 @@ iptables:
 iptables -A OUTPUT -d 0.0.0.0/0 -j ACCEPT
 
 
-ngrok
+ngrok:
+-------------------------------------------------
 sudo tar xvzf ./ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
