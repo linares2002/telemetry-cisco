@@ -16,7 +16,7 @@ Muestra bases de datos. Utiliza base de datos. Muestra el contenido:
 
 iptables:   
 -------------------------------------------------
-iptables -A OUTPUT -d 0.0.0.0/0 -j ACCEPT
+sudo iptables -A OUTPUT -d 0.0.0.0/0 -j ACCEPT
 
 
 ngrok:
