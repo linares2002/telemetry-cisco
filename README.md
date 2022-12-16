@@ -17,3 +17,7 @@ Muestra bases de datos. Utiliza base de datos. Muestra el contenido:
 iptables:   
 -------------------------------------------------
 iptables -A OUTPUT -d 0.0.0.0/0 -j ACCEPT
+
+
+ngrok
+sudo tar xvzf ./ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
