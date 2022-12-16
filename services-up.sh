@@ -37,7 +37,7 @@ docker volume create influxdb_data
 # Crea servicios
 docker run --rm -d -p 3000:3000 --network telemetry -v grafana_data:/var/lib/grafana --name grafana grafana/grafana:8.0.2
 docker run --rm -d -p 8086:8086 --network telemetry -v influxdb_data:/var/lib/influxdb --env-file configuration.env --name influxdb influxdb:1.7.11
-docker run --rm -d -p 57000:57000 --network telemetry -v $PWD/etc/telegraf.conf:/etc/telegraf/telegraf.conf:ro" --name telegraf telegraf:latest
+docker run --rm -d -p 57000:57000 --network telemetry -v $PWD/etc/telegraf.conf:/etc/telegraf/telegraf.conf:ro --name telegraf telegraf:latest
 
 
 read -p "Press any key..."
