@@ -1,3 +1,5 @@
+docker logout
+
 # Descarga imagen Telegraf (si no existe)
 result=$( docker images -q telegraf:latest )
 
