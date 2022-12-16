@@ -12,3 +12,8 @@ Muestra bases de datos. Utiliza base de datos. Muestra el contenido:
 > use xros
 
 > select * from xros
+
+
+iptables:   
+-------------------------------------------------
+iptables -A OUTPUT -d 0.0.0.0/0 -j ACCEPT
